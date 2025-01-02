@@ -1,8 +1,8 @@
-<h1 align="center">Water Bombe Script</h1>
+<h1 align="center">Water Bomb Script</h1>
 
 ## Overview
 
-* This script made by Rockstar convert in Lua is a simple Water Bombe from this [mission](https://youtu.be/WXX32jj03uw?si=8I9XpF73EHaQPz_z&t=327) in GTA Online
+* This script made by Rockstar convert in Lua is a simple water bomb from this [mission](https://youtu.be/WXX32jj03uw?si=8I9XpF73EHaQPz_z&t=327) in GTA Online
 * This is a basic script, which means **you can do whatever you want with it** !
 
 ## Installation
@@ -18,7 +18,7 @@
 
 ## Controls
 
-* **SPACEBAR** : Drop the water bombe.
+* **SPACEBAR** : Drop the water bomb.
 
 ## Support
 
