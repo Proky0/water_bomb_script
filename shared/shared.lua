@@ -1,7 +1,8 @@
 Shared = {}
 
 Shared.Whitelist = {
-	`seasparrow` -- Exemple vehicle
+	`seasparrow`, -- Exemple vehicle
+	`fdswift`, -- Swift Fire Dept by L'Kid
 	-- Add your vehicle hash here
 }
 
