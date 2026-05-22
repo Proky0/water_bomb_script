@@ -7,14 +7,16 @@ CreateThread( function ()
 	end
 
 	while true do
-		local veh = GetVehiclePedIsIn( PlayerPedId(), false )
-		local vhash = GetEntityModel( veh )
+		local player = PlayerPedId()
+		local vehicle = GetVehiclePedIsIn( player, false )
 
-		if IsControlJustReleased( 0, 255 ) then
+		if IsControlJustPressed( 0, 22 ) then
+			local vhash = GetEntityModel( vehicle )
 			local isFound = table.hasvalue( Shared.Whitelist, vhash )
-			if not isFound then return end
 
-			FIRE_AIR_BOMB( veh )
+			if isFound then
+				FIRE_AIR_BOMB( vehicle )
+			end
 		end
 
 		Wait( 0 )
