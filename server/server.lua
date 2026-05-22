@@ -1,8 +1,11 @@
-RegisterNetEvent( "explosionEvent", function ( _, ev )
+RegisterNetEvent( "explosionEvent", function ( sender, ev )
 	local explosionType = (ev.explosionType - 1)
 
 	local isBombWater = Shared.ExplosionType[explosionType] == "BOMB_WATER"
-	if not isBombWater then return end
+	if not isBombWater then
+		CancelEvent()
+		return
+	end
 
 	-- [Disclaimer !!] Onsync need to be true for the explosion to work properly
 	-- Add your code here ...
